@@ -1,0 +1,72 @@
+ManifestFileVersion: 0
+CRC: 2312363328
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: lobby-textures.bundle.sd
+      Dependencies: {}
+    Info_1:
+      Name: lobby-textures.bundle.hd
+      Dependencies: {}
+    Info_2:
+      Name: gametiles-textures.bundle.sd
+      Dependencies: {}
+    Info_3:
+      Name: gametiles-textures.bundle.hd
+      Dependencies: {}
+    Info_4:
+      Name: gamepacks-textures.bundle.sd
+      Dependencies: {}
+    Info_5:
+      Name: gamepacks-textures.bundle.hd
+      Dependencies: {}
+    Info_6:
+      Name: ingame-textures.bundle.sd
+      Dependencies: {}
+    Info_7:
+      Name: ingame-textures.bundle.hd
+      Dependencies: {}
+    Info_8:
+      Name: shared.bundle
+      Dependencies:
+        Dependency_0: embedded.bundle
+    Info_9:
+      Name: lobby.bundle
+      Dependencies:
+        Dependency_0: shared.bundle
+        Dependency_1: embedded.bundle
+        Dependency_2: lobby-textures.bundle.default
+    Info_10:
+      Name: gametiles.bundle
+      Dependencies:
+        Dependency_0: gametiles-textures.bundle.default
+    Info_11:
+      Name: gamepacks.bundle
+      Dependencies:
+        Dependency_0: gamepacks-textures.bundle.default
+    Info_12:
+      Name: embedded.bundle
+      Dependencies: {}
+    Info_13:
+      Name: ingame.bundle
+      Dependencies:
+        Dependency_0: shared.bundle
+        Dependency_1: embedded.bundle
+        Dependency_2: ingame-textures.bundle.default
+    Info_14:
+      Name: lobby-textures.bundle.default
+      Dependencies: {}
+    Info_15:
+      Name: gametiles-textures.bundle.default
+      Dependencies: {}
+    Info_16:
+      Name: gamepacks-textures.bundle.default
+      Dependencies: {}
+    Info_17:
+      Name: ingame-textures.bundle.default
+      Dependencies: {}
+    Info_18:
+      Name: missions.bundle
+      Dependencies:
+        Dependency_0: shared.bundle
+        Dependency_1: embedded.bundle
